@@ -1,0 +1,102 @@
+@import "http://webfonts.ru/import/nautilus.css";
+@import "http://webfonts.ru/import/certege.css";
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img{
+background: url(https://pp.vk.me/c621627/v621627793/4ec90/Cicb5tuRnYs.jpg);
+/*background-attachment: fixed;*/
+-webkit-background-size: cover;
+background-size: cover;
+display: block;
+height: 100vh;
+left: 0;
+right: 0;
+top: 0;
+position: fixed;
+z-index: -1;
+filter: blur(3px);
+  -webkit-filter: blur(50px);
+}
+
+.main{
+  z-index: 2;
+}
+
+.header{
+	width: 600px;
+	margin: 0px auto; 
+	margin-top: 25vh;
+	vertical-align: middle;
+	text-align: center;
+}
+
+h1{
+	font-size: 4em;
+	font-family: 'Nautilus Pompilius';
+  color: #fff;
+	/*font-family: 'Certege';*/
+}
+
+.submit {
+  font-family: 'Nautilus Pompilius';
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1em;
+  text-decoration: none;
+  /*user-select: none;*/
+  padding: 1.5em 5em;
+  outline: none;
+  border: 2px solid #fff;
+  background-color: #fff;
+  cursor: pointer;
+  /*border-radius: px;*/
+  transition: 0.8s;
+} 
+
+.submit:hover { 
+	background: #fff;
+	color: #fff;
+}
+
+.submit2{
+  font-family: 'Arial';
+  background-color: #555;
+  padding: 1.5em 5em;
+  text-align:center;
+  line-height:42px;
+  font-weight:700;
+  color:#fff;
+  border-radius:3px;
+  text-decoration:none;
+  opacity:1;
+  border:0px solid #fff;
+  cursor: pointer;
+  border-bottom-width:2px;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+
+.submit2:hover{
+  background: #fff;
+  color: #fff;
+}
+/*.submit:active { background: white; }*/
+
+#reload{
+  color: #333;
+  padding-top: 2em;
+  font-family: 'Nautilus Pompilius';
+  display: none;
+}
+
+#response{
+    font-family: 'Certege';
+    font-size: 3em;
+}
